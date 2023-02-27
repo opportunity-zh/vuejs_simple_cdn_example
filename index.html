@@ -10,6 +10,12 @@
     <div id="app">
         <h1>{{ message }}</h1>
         <h2>{{getAuthor()}}</h2>
+        <ol>
+            <li v-for="auto in cars">
+                {{auto}}
+                <span style="color:red" v-if="auto == 'VW'">(I like this one!)</span>
+            </li>
+        </ol>
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

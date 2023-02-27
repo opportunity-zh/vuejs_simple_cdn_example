@@ -5,7 +5,8 @@ createApp({
     data() {
         return {
            message: 'Hello Vue!',
-           author: 'Opportunity'
+           author: 'Opportunity',
+           cars: ['Volvo', 'VW', 'Opel', 'Ferrari']
         }
     }, 
     methods: {        
